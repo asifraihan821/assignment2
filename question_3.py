@@ -15,8 +15,8 @@ class StudentDatabase:
         cls.student_list.append(student)
     
         
-asif = Student(1,'asif','non-cse',True)
-StudentDatabase.add_student(asif)
+#asif = Student(1,'asif','non-cse',True)
+#StudentDatabase.add_student(asif)
 
-for student in StudentDatabase.student_list:
-    print(f'{asif.studnt_id} {asif.name} {asif.department} {asif.is_enrolled}')
+#for student in StudentDatabase.student_list:
+    #print(f'{asif.studnt_id} {asif.name} {asif.department} {asif.is_enrolled}')
